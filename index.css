@@ -1,3 +1,25 @@
-body{
-    background-image: url(https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png);
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600&display=swap");
+
+:root {
+  --mon-font: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: no-repeat
+    url(https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png);
+  margin: 0;
+}
+
+.info {
+  width: 60vw;
+  height: 50vh;
+  margin: 0 0 0 40vw;
+  background-color: wheat;
+  padding: 20vh 0 0 0;
+}
+
+.txt-style {
+  font-family: var(--mon-font)
 }
