@@ -10,26 +10,54 @@
   <body>
     <div class="info">
       <div class="txt-style">
-        This is not a real online service! You know you need somethign like this
-        in your lice to help you realize your deepest dreams. Sign up now to get
-        startes.
+        <p>
+          This is not a real online service! You know you need somethign like
+          this in your lice to help you realize your deepest dreams. Sign up now
+          to get startes.
+        </p>
       </div>
       <div class="txt-style">You know you want to.</div>
       <div class="txt-style">Let's do this!</div>
-      
+
       <form>
-        <lable for="name" class="txt-style">First Name</lable>
-        <input type="text" />
-        <lable for="name" class="txt-style">Last Name</lable>
-        <input type="text" />
-        <lable for="email" class="txt-style">Email</lable>
-        <input type="email" />
-        <lable for="number" class="txt-style">Phone Number</lable>
-        <input type="tel" />
-        <lable for="password" class="txt-style">Password</lable>
-        <input type="password" />
-        <lable for="password" class="txt-style">Conform Password</lable>
-        <input type="password" />
+        <div>
+          <div class="lables">
+            <lable for="name" class="txt-style" id="fname">First Name</lable>
+            <lable for="name" class="txt-style" id="lname">Last Name</lable>
+          </div>
+          <input type="text" required />
+          <input type="text" required />
+        </div>
+
+        <div>
+          <div class="lables">
+            <lable for="email" class="txt-style">Email</lable>
+            <lable for="number" class="txt-style">Phone Number</lable>
+          </div>
+          <input type="email" class="email" required />
+          <input type="tel" />
+        </div>
+
+        <div>
+          <div class="lables">
+            <lable for="password" class="txt-style">Password</lable>
+            <lable for="password" class="txt-style">Conform Password</lable>
+          </div>
+          <input
+            class="pass"
+            type="password"
+            required
+            maxlength="20"
+            minlength="4"
+          />
+          <input
+            class="pass"
+            type="password"
+            required
+            maxlength="20"
+            minlength="4"
+          />
+        </div>
       </form>
     </div>
   </body>
