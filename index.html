@@ -25,22 +25,22 @@
             <lable for="name" class="txt-style" id="fname">First Name</lable>
             <lable for="name" class="txt-style" id="lname">Last Name</lable>
           </div>
-          <input type="text" required />
-          <input type="text" required />
+          <input type="text" class="fname" required />
+          <input type="text" class="lname" required />
         </div>
 
         <div>
           <div class="lables">
-            <lable for="email" class="txt-style">Email</lable>
-            <lable for="number" class="txt-style">Phone Number</lable>
+            <lable for="email" class="txt-style" id="e-mail">Email</lable>
+            <lable for="number" class="txt-style" >Phone Number</lable>
           </div>
           <input type="email" class="email" required />
-          <input type="tel" />
+          <input type="tel" class="tel" />
         </div>
 
-        <div>
+        <div class="div-bottom">
           <div class="lables">
-            <lable for="password" class="txt-style">Password</lable>
+            <lable for="password" class="txt-style" id="pass">Password</lable>
             <lable for="password" class="txt-style">Conform Password</lable>
           </div>
           <input
@@ -57,6 +57,11 @@
             maxlength="20"
             minlength="4"
           />
+        </div>
+
+        <div class="btn-div">
+          <button class="btn">Create Account</button>
+          <p class="txt-style">Already have an account? Log in</p>
         </div>
       </form>
     </div>

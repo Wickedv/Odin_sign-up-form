@@ -5,40 +5,80 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  background: no-repeat url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)  ;
+ 
+  background:  url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)  no-repeat fixed left  ;
+  background-size: 67vh;
   margin: 0;
+  padding: 0;
 }
 
 .info {
-  width: 60vw;
-  height: 50vh;
+  height:800px;
+  padding: 0;
   margin: 0 0 0 40vw;
-  background-color: wheat;
-  padding: 35vh 0 0 0;
+  background-color: white;
+  padding: 37.5vh 0 0 0;
 }
 
 .txt-style {
   font-family: var(--mon-font)
 }
-.pass:invalid, .email:invalid{
+.pass:invalid{
  border: 1px solid red;
+ background-color: lightcoral;
 }
 
-.pass:valid, .email:valid{
+
+.pass:valid {
  border: 1px solid green;
+ background-color: lightgreen;
 }
 
 div{
-  padding: 10px;
+  padding: 10px 50px;
 }
 
-.lable{
-  padding: 0;
-  margin: 0;
+.lables{
+  margin-left: 13px;
+  padding: 0 0 10px 0;
 }
 
 #fname{
-  margin-right: 7.5vw;
+  margin-right:115px;
 }
+
+#e-mail{
+  margin-right: 160px;
+}
+
+#pass{
+  margin-right: 125px;
+}
+
+.btn{
+  background-color: #596D48;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 10px 35px;
+  font-size: large;
+}
+
+.btn-div{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.div-bottom{
+  box-shadow: 0 5px 6px black;
+  padding-bottom: 20px;
+}
+
+
+input{
+  margin: 0 15px;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+
